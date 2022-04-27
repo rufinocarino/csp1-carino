@@ -1,0 +1,101 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family:'Open Sans', sans-serif;
+
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+	color: white;
+}
+
+body h2 {
+	font-weight: bold;
+}
+
+.navigation {
+	margin-left: auto;
+}
+
+.photo1 img {
+	width: 70%;
+	height: 70%;
+	padding-top: 2rem;
+	
+}
+
+#profile2 h1, h2 {
+	text-align: justify;
+}
+
+#profile2 p{
+	color: white;
+	text-align: justify;
+}
+
+.card {
+	border: 1px solid black;
+}
+
+
+.proj {
+	margin-top: 2rem;
+}
+
+.card-img-top {
+	object-fit: cover;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+
+.card-title {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+.card-text {
+	color: black;
+	text-align: center;
+}
+
+#tools {
+	margin: 3rem 0 4rem;
+}
+
+.tools1 img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	margin-bottom: 2rem;
+
+}
+
+.tools2 img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	margin-bottom: 2rem;
+}
+
+form div {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+form {
+	padding-bottom: 5px;
+}
+
+/*#form button {
+	position: relative;
+	left: 75%;
+}*/
