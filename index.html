@@ -43,7 +43,7 @@
 	<!-- Profile Section start -->
 			<div class="container-fluid bg-dark profile1 d-md-flex" id="profile">
 				<div class="photo1 col-md-6 col-sm-12 pt-md-5 pt-sm-5 d-flex justify-content-center pt-5">
-					<img src="images/me.jpg" class="rounded-circle img-fluid">
+					<img src="images/me.jpg" class="rounded-circle img-fluid" id="logo">
 				</div>
 				<div class="col-md-6 d-md-flex flex-md-column justify-content-md-center align-items-md-start d-sm-flex flex-sm-column align-items-sm-center d-flex align-items-center flex-column" id="profile2">
 					<h1 class="font-weight-bold">Rufino Carino</h1>
@@ -107,7 +107,7 @@
 				<h2 class="text-center" id="tools">Tools</h2>
 
 	<!-- Tools container start -->
-			<div class="d-sm-flex d-md-flex flex-md-column d-flex" id="tools3">
+			<div class="d-sm-flex d-md-flex flex-md-column d-flex px-2 " id="tools3">
 				
 				<div class="tools1 d-md-flex flex-md-row offset-md-3 justify-content-md-center col-md-6 d-sm-flex flex-sm-column align-items-sm-center d-flex flex-column">
 					
@@ -120,7 +120,7 @@
 					
 				</div>
 
-				<div class="tools2 d-md-flex flex-md-row offset-md-3 justify-content-md-around col-md-6 d-sm-flex flex-sm-column align-items-sm-center d-flex flex-column pl-5">
+				<div class="tools2 d-md-flex flex-md-row offset-md-3 justify-content-md-around col-md-6 d-sm-flex flex-sm-column align-items-sm-center d-flex flex-column align-items-end">
 					
 					<img src="images/js.png">
 					<img src="images/mongo.jpg">
@@ -143,7 +143,7 @@
 	
 	<!-- Contact form container start -->
 
-				<div class="bg-primary col-md-8  offset-md-2" id="form">
+				<div class="bg-primary col-md-8 offset-md-2" id="form">
 					<h2 class="text-center text-white">Message us</h2>
 				
 						<form id="contact">
@@ -164,8 +164,9 @@
 								<textarea class="form-control" name="textArea" id="textArea" rows="5"></textarea>
 							</div>
 
-							
+							<div class="d-md-flex flex-md-row justify-content-md-center d-flex flex-row justify-content-center">
 							<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send Message</button>
+							</div>
 
 							<div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							  <div class="modal-dialog">
@@ -179,7 +180,7 @@
 							      <div class="modal-body">
 							        Keep your lines open so we can contact you!
 							      </div>
-							      <div class="modal-footer">
+							      <div class="modal-footer d-md-flex flex-md-column align-items-md-end">
 							        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 							        <button type="button" class="btn btn-primary">Save changes</button>
 							      </div>

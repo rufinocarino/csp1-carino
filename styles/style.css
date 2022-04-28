@@ -75,6 +75,7 @@ body h2 {
 	height: 100px;
 	object-fit: cover;
 	margin-bottom: 2rem;
+	padding-left: 1rem;
 
 }
 
@@ -94,7 +95,6 @@ form div {
 
 form {
 	padding-bottom: 15px;
-
 }
 
 .btn {
@@ -108,4 +108,5 @@ form {
 .btn:hover {
 	background-color: grey;
 }
+
 
