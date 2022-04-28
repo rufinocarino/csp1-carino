@@ -40,11 +40,12 @@ body h2 {
 
 .card {
 	border: 1px solid black;
+	margin-bottom: 1em;
 }
 
 
 .proj {
-	margin-top: 2rem;
+	margin-top: 1rem;
 }
 
 .card-img-top {
@@ -92,10 +93,19 @@ form div {
 }
 
 form {
-	padding-bottom: 5px;
+	padding-bottom: 15px;
+
 }
 
-/*#form button {
-	position: relative;
-	left: 75%;
-}*/
+.btn {
+	border-radius: 15px;
+	padding: 15px 32px;
+	text-align: center;
+	width: 200px;
+	
+}
+
+.btn:hover {
+	background-color: grey;
+}
+
